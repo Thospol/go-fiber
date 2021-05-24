@@ -1,0 +1,116 @@
+json_duplicate_or_invalid_format:
+  code: 1000
+  localization:
+    en: "Json field duplicate or invalid format. Please try again"
+    th: "Json มีคีย์ซ้ำกันหรือรูปแบบฟอร์เมตผิด กรุณาลองใหม่อีกครั้ง"
+
+invalid_email:
+  code: 1001
+  localization:
+    en: "Email is invalid. Please try again"
+    th: "รูปแบบอีเมลไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+invalid_phone_number:
+  code: 1002
+  
+  localization:
+    en: "Invalid phone number. Please try again"
+    th: "เบอร์โทรศัพท์ไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+otp_invalid_or_expired:
+  code: 1003
+  localization:
+    en: "Sorry, otp invalid or expired. Please try again"
+    th: "ขออภัย รหัสยืนยันไม่ถูกต้องหรือหมดอายุ กรุณาลองใหม่อีกครั้ง"
+
+invalid_maximum_size:
+  code: 1004
+  localization:
+    en: "File upload have a maximum limit. Please try again"
+    th: "ไฟล์ที่อัพโหลด มีขนาดเกินกำหนด กรุณาลองใหม่อีกครั้ง"
+
+invalid_type_image_file:
+  code: 1005
+  localization:
+    en: "Sorry, can't to upload file because type file not type image"
+    th: "ขออภัย ไม่สามารถอัพโหลดไฟล์ได้ เนื่องจากไฟล์ไม่ใช่รูปภาพ"
+
+email_already_exists:
+  code: 1006
+  localization:
+    en: "This email already exists. Please try again"
+    th: "มีอีเมลนี้อยู่ในระบบอยู่แล้ว กรุณาลองใหม่อีกครั้ง"
+
+invalid_email_not_already_exists:
+  code: 1007
+  localization:
+    en: "This email not already exists in system. Please try again"
+    th: "ขออภัย อีเมลของคุณไม่มีอยู่ในระบบ กรุณาลองใหม่อีกครั้ง"
+
+phone_number_already_exists:
+  code: 1008
+  localization:
+    en: "This phoneNumber already exists. Please try again"
+    th: "มีเบอร์นี้อยู่ในระบบอยู่แล้ว กรุณาลองใหม่อีกครั้ง"
+
+invalid_password:
+  code: 1009
+  localization:
+    en: "Sorry, your password is incorrect. Please try again"
+    th: "ขออภัย รหัสผ่านของคุณไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+invalid_amount_password:
+  code: 1010
+  localization:
+    en: "Sorry, password must be at less 6 characters. Please try again"
+    th: "ขออภัย รหัสผ่านของคุณต้องมีอย่างน้อย 6 อักขระขึ้นไป กรุณาลองใหม่อีกครั้ง"
+
+password_does_not_match:
+  code: 1011
+  localization:
+    en: "Password does not match. Please try again"
+    th: "รหัสผ่านและยืนยันรหัสผ่าน ไม่ตรงกัน กรุณาลองใหม่อีกครั้ง"
+
+invalid_token:
+  code: 1012
+  localization:
+    en: "Sorry invalid token. Please try again"
+    th: "โทเค็นไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+
+# These are what we response to our internal services
+internal:
+  success:
+    code: 0
+    localization:
+      en: "Success"
+      th: "สำเร็จ"
+
+  general:
+    code: 500
+    localization:
+      en: "System cannot process this request at the moment. Please try again later"
+      th: "ขออภัย ระบบไม่สามารถดำเนินการได้ในขณะนี้ กรุณาลองใหม่อีกครั้ง"
+
+  bad_request:
+    code: 400
+    localization:
+      en: "System cannot process this request at the moment. Please try again later"
+      th: "ขออภัย ระบบไม่สามารถดำเนินการได้ในขณะนี้ กรุณาลองใหม่อีกครั้ง"
+
+  connection_error:
+    code: 500
+    localization:
+      en: "Connection error. Please try again"
+      th: "ขออภัย ระบบไม่สามารถดำเนินการได้ในขณะนี้ กรุณาลองใหม่อีกครั้ง"
+
+  database_not_found:
+    code: 404
+    localization:
+      en: "Database not found. Please try again"
+      th: "ขออภัย ไม่พบข้อมูลในระบบ กรุณาลองใหม่อีกครั้ง"
+
+  unauthorized:
+    code: 401
+    localization:
+      en: "this request at the moment. Please try again later"
+      th: "ขออภัย ระบบไม่อนุญาตให้คุณเข้าถึงการร้องขอได้ กรุณาลองใหม่อีกครั้ง"
